@@ -21,7 +21,6 @@ var _SOLIDITY_TYPE_MAXIMA;
 
 (function (ChainId) {
   ChainId[ChainId["WECHAIN"] = 5664] = "WECHAIN";
-  ChainId[ChainId["WECHAIN_TESTNET"] = 5663] = "WECHAIN_TESTNET";
 })(exports.ChainId || (exports.ChainId = {}));
 
 (function (TradeType) {
@@ -35,8 +34,8 @@ var _SOLIDITY_TYPE_MAXIMA;
   Rounding[Rounding["ROUND_UP"] = 2] = "ROUND_UP";
 })(exports.Rounding || (exports.Rounding = {}));
 
-var FACTORY_ADDRESS = '0x6fd590096E6B06423c779D57A4FCd08b9e5A152d';
-var INIT_CODE_HASH = '0x7172db60c3dcfdc0948decb8060696d62e1bc144fe34f47347dc022c3815d0b4';
+var FACTORY_ADDRESS = '0x010BB11599dE416cfCEBBE07B8b1dc82e4568Cf3';
+var INIT_CODE_HASH = '0xf0a4da538c44ecc4ec44e679938c383b552f33d4c8734ef025e342f586213cbd';
 var MINIMUM_LIQUIDITY = /*#__PURE__*/JSBI.BigInt(1000); // exports for internal consumption
 
 var ZERO = /*#__PURE__*/JSBI.BigInt(0);
